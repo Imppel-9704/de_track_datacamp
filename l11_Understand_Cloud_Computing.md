@@ -188,3 +188,31 @@ Improvement:
   - New secure, up-to-date, policy compliant disaster recovery site in under 3 months. 
   - Compliant with data privacy regulations. 
   - Saved ~50% on disaster recovery costs.
+
+### Google Cloud services
+### Personal cloud
+- Google Drive
+- Google Photo
+
+### Professional cloud
+- File storage: Google Cloud Storage
+- Computation: Google Compute Engine
+- Databases: Google Cloud SQL
+
+### Google Cloud data services
+- BigQuery (Data warehouse) 
+- Dataflow(batch and stream data processing) 
+- AutoML (machine learning model training and development)
+
+### Google Cloud case study
+Orgazation: Lush
+Needs: Improve e-commerce platform availability and stability during peak loads. 
+Solution: 
+- Migrate entire global infra to Google Cloud. 
+- Google Cloud Engine Compute Engine (quickly test and provision environments during migration) 
+- Customer and product data on Google Cloud SQL.
+
+Improvement: 
+- No outage during Boxing Day. 
+- 40% reduction in hosting costs. 
+- Later deployed an image recognition app to provide information on their product and reduce plastic packaging on Google Cloud AI platform.
