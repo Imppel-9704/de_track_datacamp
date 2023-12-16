@@ -366,7 +366,8 @@ git merge source_branch destination_brach
 git merge summary main
 ```
 
-## Creating repos
+## Collaborating with Git
+### Creating repos
 Why make a report? Benefits of repos 
 - Systematically track versions 
 - Collaborate with colleagues 
@@ -436,3 +437,47 @@ git remote add name URL
 git remote add george https://github.com/geirge_datacamp/repo
 ``` 
 - Defining remote names is useful for merging branches
+
+### Gathering from a remote
+Remote vs. Local
+![Image](https://drive.google.com/uc?id=1gUecLmWfdZHxxJFdQTgu09hN7wz7nsw3)
+
+![Image](https://drive.google.com/uc?id=17EAXoMmELB92IUMperHwNsXhte4chMn9)
+
+Fetching from a remote 
+```
+git fetch origin main
+```
+
+Synchonizie content 
+```
+git merge origin main
+```
+
+Pulling from a remote 
+- remote is often ahead of local repos 
+- fetch and merge is a common workflow 
+- Git simplifies this process for us! 
+```
+git pull origin main
+```
+
+Pulling with unsaved local changes 
+```
+git pull origin
+```
+- Important to save locally before pulling from a remote
+
+### Pushing to a remote
+git push 
+- Save changes locally first! 
+```
+git push remote local_branch
+``` 
+- Push into remote from local_branch
+```
+git push origin main
+```
+
+## Git Cheat Sheet
+https://education.github.com/git-cheat-sheet-education.pdf
